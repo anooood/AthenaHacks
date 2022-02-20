@@ -1,3 +1,4 @@
+
 var slist = {
   // (A) INITIALIZE SHOPPING LIST
   items : [],   // current shopping list
@@ -108,3 +109,5 @@ var slist = {
   }
 };
 window.addEventListener("load", slist.init);
+
+
