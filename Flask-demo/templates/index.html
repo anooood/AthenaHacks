@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Saver</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link href="{{ url_for('static', filename='shop-list.css') }}" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">GrocerLess</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">How It Works?</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page">Get Started</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Save money on grocery items with us!<span></span></h1>
+        <button class="button"><a href="#services" id="services-page">Get Started</a></button>
+      </div>
+    </div>
+
+        <!-- Services Section -->
+        <div class="services" id="about">
+          <h1>How It Works?</h1>
+          <div class="services__wrapper">
+            <div class="services__card">
+              <h2>Step 1</h2>
+              <p>Enter your list of shopping items</p>
+            </div>
+            <div class="services__card">
+              <h2>Step 2</h2>
+              <p>Our algorithm will estimate the total cost of your groceries</p>
+            </div>
+            <div class="services__card">
+              <h2>Step 3</h2>
+              <p>We will give you the store with the best, most affordable deal!</p>
+            </div>
+            </div>
+          </div>
+        </div>
+    
+    <div class="shopping" id="services">
+    <h1 id="shoplist">Enter Your Shopping List</h1>
+    <div id="shop-wrap">
+      <!-- (A) ADD NEW ITEM -->
+      <form id="shop-form">
+        <select id="shop-item" placeholder = "Select an Item">
+          <option value="Apple">Apple</option>
+          <option value="Orange">Orange</option>
+          <option value="Lemon">Lemon</option>
+          <option value="Milk">Milk</option>
+          <option value="Blueberries">Blueberries</option>
+          <option value="Bananas">Bananas</option>
+          <option value="Papaya">Papaya</option>
+          <option value="Avacado">Avacado</option>
+          <option value="Plantain">Plantain</option>
+          <option value="red mango">red mango</option>
+          <option value="tomato">tomato</option>
+          <option value="potato">potato</option>
+          <option value="onion">onion</option>
+          <option value="spinach">spinach</option>
+          <option value="brocolli">brocolli</option>
+          <option value="salad">salad</option>
+          <option value="zuccini">zuccini</option>
+          <option value="sprouts">sprouts</option>
+          <option value="carrots">carrots</option>
+          <option value="asparagus">asparagus</option>
+          <option value="bread">bread</option>
+          <option value="eggs">eggs</option>
+          </select>
+        <!-- <input type="text" id="shop-item" placeholder="Item Name" required disabled/> -->
+        <input type="submit" id="shop-add" value="Add" disabled/>
+      </form>
+
+      <!-- (B) SHOPPING LIST -->
+      <div id="shop-list"></div>
+    </div>
+    <div>
+      <form action="post">
+      <button class="Submit" id="submit"><a href="/results" id="submit">Submit</a></button>
+    </form>    
+    </div>
+    </div>
+
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">GrocerLess</a>
+          </div>
+          <p class="website__rights">© GrocerLess 2020. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <script src="{{ url_for('static', filename='shop-list.js') }}"></script>
+
+  </body>
+</html>
