@@ -97,24 +97,28 @@ var slist = {
         del.onclick = () => { slist.delete(i); };
         row.appendChild(del);
 
-        // COMPLETED/NOT YET BUTTON
-        let ok = document.createElement("input");
-        ok.className = "item-ok";
-        ok.type = "button";
-        ok.value = slist.items[i].done ? "Not Yet" : "Got It";
-        ok.onclick = () => { slist.toggle(i); };
-        row.appendChild(ok);
+        // // COMPLETED/NOT YET BUTTON
+        // let ok = document.createElement("input");
+        // ok.className = "item-ok";
+        // ok.type = "button";
+        // ok.value = slist.items[i].done ? "Not Yet" : "Got It";
+        // ok.onclick = () => { slist.toggle(i); };
+        // row.appendChild(ok);
       }
     }
   }
 };
+
 window.addEventListener("load", slist.init);
 
-$.ajax({
-  url: Flask.url_for('my_function'),
-  type: 'POST',
-  data: slist.items,   // converts js value to JSON string
-  })
-  .done(function(result){     // on success get the return object from server
-      console.log(result)     // do whatever with it. In this case see it in console
-  })
+// $.ajax({
+//   url: '/my_function',
+//   type: 'POST',
+//   data: JSON.stringify(slist.items),   // converts js value to JSON string
+//   })
+//   .done(function(result){     // on success get the return object from server
+//       console.log(result)     // do whatever with it. In this case see it in console
+//   })
+
+console.log(data.items) 
+  

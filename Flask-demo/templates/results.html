@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Saver</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link href="{{ url_for('static', filename='shop-list.css') }}" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+    <style>
+        #map { height: 300px;     
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+            margin: 0;}
+    </style>
+
+</head>
+<body>
+        <!-- Navbar Section -->
+        <nav class="navbar">
+            <div class="navbar__container">
+              <a href="/" id="navbar__logo">GrocerLess</a>
+              <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+              <ul class="navbar__menu">
+                <li class="navbar__item">
+                  <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="#about" class="navbar__links" id="about-page">How It Works?</a>
+                </li>
+                <li class="navbar__item">
+                  <a href="#services" class="navbar__links" id="services-page">Get Started</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          
+<div class="results" id="results">
+    <h1 id="header">Here's Your Best Deal</h1>
+    <h2>Store Name: <span id="store-name"></span></h2>
+    <h2>Estimated Total Price: <span id="total-price"></span></h2>
+
+    <div id="map"></div>
+
+</div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <section class="social__media">
+          <div class="social__media--wrap">
+            <div class="footer__logo">
+              <a href="/" id="footer__logo">GrocerLess</a>
+            </div>
+            <p class="website__rights">© GrocerLess 2020. All rights reserved</p>
+            <div class="social__icons">
+              <a href="/" class="social__icon--link" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="/" class="social__icon--link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="/" class="social__icon--link"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="/" class="social__icon--link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="/" class="social__icon--link"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+
+        coordinates = [34.02606245347389, -118.28514143558832];
+
+        const map = L.map('map').setView(coordinates, 15);
+
+        const marker = L.marker(coordinates).addTo(map);
+
+        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 18,
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            accessToken: 'pk.eyJ1IjoiYW5vb2R4LS14IiwiYSI6ImNrenJ5dXZ6bjZ4cGkydW5rNHJoYmNuNW4ifQ.PiHvbXdIIZiLTdP3ZmQQ1Q'
+        }).addTo(map);
+
+    </script>
+
+<!-- <script src="{{ url_for('static', filename='shop-list.js') }}"></script> -->
+
+</body>
+</html>

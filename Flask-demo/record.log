@@ -1,0 +1,326 @@
+2022-02-19 23:43:43,177 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-02-19 23:43:43,197 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-02-19 23:43:43,457 WARNING werkzeug MainThread :  * Debugger is active!
+2022-02-19 23:43:43,467 INFO werkzeug MainThread :  * Debugger PIN: 997-136-322
+2022-02-19 23:43:52,471 INFO werkzeug Thread-6 : 127.0.0.1 - - [19/Feb/2022 23:43:52] "GET / HTTP/1.1" 200 -
+2022-02-19 23:44:11,889 DEBUG fsevents Thread-5 : NativeEvent(path="/opt/anaconda3/lib/python3.9/site-packages/.DS_Store", inode=8603779475, flags=1b500, id=89137753): is_created, is_file, is_inode_meta_mod, is_item_finder_info_modified, is_modified, is_xattr_mod
+2022-02-19 23:44:11,939 DEBUG fsevents Thread-5 : queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.9/site-packages/.DS_Store', is_directory=False>
+2022-02-19 23:44:11,940 DEBUG fsevents Thread-5 : queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.9/site-packages', is_directory=True>
+2022-02-19 23:44:11,941 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.9/site-packages/.DS_Store', is_directory=False>
+2022-02-19 23:44:16,869 DEBUG fsevents Thread-5 : NativeEvent(path="/opt/anaconda3/lib/python3.9/site-packages/.DS_Store", inode=8603779475, flags=1b500, id=89137916): is_created, is_file, is_inode_meta_mod, is_item_finder_info_modified, is_modified, is_xattr_mod
+2022-02-19 23:44:16,869 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.9/site-packages/.DS_Store', is_directory=False>
+2022-02-19 23:44:23,520 DEBUG fsevents Thread-5 : NativeEvent(path="/opt/anaconda3/lib/python3.9/site-packages/jedi/third_party/typeshed/third_party/2and3/.DS_Store", inode=8603779494, flags=1b500, id=89137994): is_created, is_file, is_inode_meta_mod, is_item_finder_info_modified, is_modified, is_xattr_mod
+2022-02-19 23:44:23,521 DEBUG fsevents Thread-5 : queue_event <FileCreatedEvent: event_type=created, src_path='/opt/anaconda3/lib/python3.9/site-packages/jedi/third_party/typeshed/third_party/2and3/.DS_Store', is_directory=False>
+2022-02-19 23:44:23,521 DEBUG fsevents Thread-5 : queue_event <DirModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.9/site-packages/jedi/third_party/typeshed/third_party/2and3', is_directory=True>
+2022-02-19 23:44:23,522 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/opt/anaconda3/lib/python3.9/site-packages/jedi/third_party/typeshed/third_party/2and3/.DS_Store', is_directory=False>
+2022-02-20 04:48:03,514 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-02-20 04:48:03,530 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-02-20 04:48:03,888 WARNING werkzeug MainThread :  * Debugger is active!
+2022-02-20 04:48:03,899 INFO werkzeug MainThread :  * Debugger PIN: 997-136-322
+2022-02-20 04:48:07,020 INFO werkzeug Thread-6 : 127.0.0.1 - - [20/Feb/2022 04:48:07] "GET / HTTP/1.1" 200 -
+2022-02-20 04:49:38,996 INFO werkzeug Thread-8 : 127.0.0.1 - - [20/Feb/2022 04:49:38] "GET / HTTP/1.1" 200 -
+2022-02-20 04:49:40,417 INFO werkzeug Thread-9 : 127.0.0.1 - - [20/Feb/2022 04:49:40] "GET / HTTP/1.1" 200 -
+2022-02-20 04:49:42,210 INFO werkzeug Thread-10 : 127.0.0.1 - - [20/Feb/2022 04:49:42] "GET / HTTP/1.1" 200 -
+2022-02-20 04:49:42,264 INFO werkzeug Thread-11 : 127.0.0.1 - - [20/Feb/2022 04:49:42] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:49:42,269 INFO werkzeug Thread-14 : 127.0.0.1 - - [20/Feb/2022 04:49:42] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:49:42,271 INFO werkzeug Thread-13 : 127.0.0.1 - - [20/Feb/2022 04:49:42] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:49:42,276 INFO werkzeug Thread-12 : 127.0.0.1 - - [20/Feb/2022 04:49:42] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:49:42,572 INFO werkzeug Thread-15 : 127.0.0.1 - - [20/Feb/2022 04:49:42] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:49:42,897 INFO werkzeug Thread-16 : 127.0.0.1 - - [20/Feb/2022 04:49:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:49:57,169 INFO werkzeug Thread-17 : 127.0.0.1 - - [20/Feb/2022 04:49:57] "GET / HTTP/1.1" 200 -
+2022-02-20 04:49:57,362 INFO werkzeug Thread-18 : 127.0.0.1 - - [20/Feb/2022 04:49:57] "GET / HTTP/1.1" 200 -
+2022-02-20 04:49:59,503 INFO werkzeug Thread-19 : 127.0.0.1 - - [20/Feb/2022 04:49:59] "GET / HTTP/1.1" 200 -
+2022-02-20 04:49:59,541 INFO werkzeug Thread-20 : 127.0.0.1 - - [20/Feb/2022 04:49:59] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:49:59,553 INFO werkzeug Thread-21 : 127.0.0.1 - - [20/Feb/2022 04:49:59] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:49:59,554 INFO werkzeug Thread-22 : 127.0.0.1 - - [20/Feb/2022 04:49:59] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:49:59,554 INFO werkzeug Thread-23 : 127.0.0.1 - - [20/Feb/2022 04:49:59] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:49:59,600 INFO werkzeug Thread-24 : 127.0.0.1 - - [20/Feb/2022 04:49:59] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:49:59,640 INFO werkzeug Thread-25 : 127.0.0.1 - - [20/Feb/2022 04:49:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:50:00,005 INFO werkzeug Thread-26 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET / HTTP/1.1" 200 -
+2022-02-20 04:50:00,036 INFO werkzeug Thread-27 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:50:00,053 INFO werkzeug Thread-28 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:50:00,054 INFO werkzeug Thread-29 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:50:00,059 INFO werkzeug Thread-30 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:50:00,092 INFO werkzeug Thread-31 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:50:00,139 INFO werkzeug Thread-32 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:50:00,220 INFO werkzeug Thread-33 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET / HTTP/1.1" 200 -
+2022-02-20 04:50:00,253 INFO werkzeug Thread-34 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:50:00,259 INFO werkzeug Thread-35 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:50:00,261 INFO werkzeug Thread-36 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:50:00,263 INFO werkzeug Thread-37 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:50:00,304 INFO werkzeug Thread-38 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:50:00,349 INFO werkzeug Thread-39 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:50:00,387 INFO werkzeug Thread-40 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET / HTTP/1.1" 200 -
+2022-02-20 04:50:00,416 INFO werkzeug Thread-41 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:50:00,426 INFO werkzeug Thread-42 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:50:00,427 INFO werkzeug Thread-43 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:50:00,428 INFO werkzeug Thread-44 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:50:00,469 INFO werkzeug Thread-45 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:50:00,514 INFO werkzeug Thread-46 : 127.0.0.1 - - [20/Feb/2022 04:50:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:50:30,699 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/.DS_Store", inode=8603774080, flags=11400, id=89170271): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:50:30,699 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/.DS_Store', is_directory=False>
+2022-02-20 04:50:51,293 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89170638): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:50:51,293 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:50:53,570 INFO werkzeug Thread-47 : 127.0.0.1 - - [20/Feb/2022 04:50:53] "GET / HTTP/1.1" 200 -
+2022-02-20 04:50:54,408 INFO werkzeug Thread-48 : 127.0.0.1 - - [20/Feb/2022 04:50:54] "GET / HTTP/1.1" 200 -
+2022-02-20 04:50:55,922 INFO werkzeug Thread-49 : 127.0.0.1 - - [20/Feb/2022 04:50:55] "GET / HTTP/1.1" 200 -
+2022-02-20 04:50:55,963 INFO werkzeug Thread-50 : 127.0.0.1 - - [20/Feb/2022 04:50:55] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:50:55,975 INFO werkzeug Thread-51 : 127.0.0.1 - - [20/Feb/2022 04:50:55] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:50:55,979 INFO werkzeug Thread-53 : 127.0.0.1 - - [20/Feb/2022 04:50:55] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:50:55,980 INFO werkzeug Thread-52 : 127.0.0.1 - - [20/Feb/2022 04:50:55] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:50:56,041 INFO werkzeug Thread-54 : 127.0.0.1 - - [20/Feb/2022 04:50:56] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:50:56,104 INFO werkzeug Thread-55 : 127.0.0.1 - - [20/Feb/2022 04:50:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:51:28,710 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89170979): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:51:28,711 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:51:39,945 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89171127): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:51:39,946 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:51:41,423 INFO werkzeug Thread-56 : 127.0.0.1 - - [20/Feb/2022 04:51:41] "GET / HTTP/1.1" 200 -
+2022-02-20 04:51:41,458 INFO werkzeug Thread-57 : 127.0.0.1 - - [20/Feb/2022 04:51:41] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:51:41,472 INFO werkzeug Thread-59 : 127.0.0.1 - - [20/Feb/2022 04:51:41] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:51:41,473 INFO werkzeug Thread-60 : 127.0.0.1 - - [20/Feb/2022 04:51:41] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:51:41,473 INFO werkzeug Thread-58 : 127.0.0.1 - - [20/Feb/2022 04:51:41] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:51:41,809 INFO werkzeug Thread-61 : 127.0.0.1 - - [20/Feb/2022 04:51:41] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:51:42,136 INFO werkzeug Thread-62 : 127.0.0.1 - - [20/Feb/2022 04:51:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:51:44,510 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89171226): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:51:44,511 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:51:45,845 INFO werkzeug Thread-63 : 127.0.0.1 - - [20/Feb/2022 04:51:45] "GET / HTTP/1.1" 200 -
+2022-02-20 04:51:46,952 INFO werkzeug Thread-64 : 127.0.0.1 - - [20/Feb/2022 04:51:46] "GET / HTTP/1.1" 200 -
+2022-02-20 04:51:46,991 INFO werkzeug Thread-65 : 127.0.0.1 - - [20/Feb/2022 04:51:46] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:51:47,000 INFO werkzeug Thread-66 : 127.0.0.1 - - [20/Feb/2022 04:51:47] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:51:47,002 INFO werkzeug Thread-67 : 127.0.0.1 - - [20/Feb/2022 04:51:47] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:51:47,002 INFO werkzeug Thread-68 : 127.0.0.1 - - [20/Feb/2022 04:51:47] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:51:47,040 INFO werkzeug Thread-69 : 127.0.0.1 - - [20/Feb/2022 04:51:47] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:51:47,092 INFO werkzeug Thread-70 : 127.0.0.1 - - [20/Feb/2022 04:51:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:51:51,270 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89171383): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:51:51,271 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:51:52,127 INFO werkzeug Thread-71 : 127.0.0.1 - - [20/Feb/2022 04:51:52] "GET / HTTP/1.1" 200 -
+2022-02-20 04:51:52,163 INFO werkzeug Thread-72 : 127.0.0.1 - - [20/Feb/2022 04:51:52] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:51:52,166 INFO werkzeug Thread-73 : 127.0.0.1 - - [20/Feb/2022 04:51:52] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:51:52,172 INFO werkzeug Thread-75 : 127.0.0.1 - - [20/Feb/2022 04:51:52] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:51:52,173 INFO werkzeug Thread-74 : 127.0.0.1 - - [20/Feb/2022 04:51:52] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:51:52,223 INFO werkzeug Thread-76 : 127.0.0.1 - - [20/Feb/2022 04:51:52] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:51:52,277 INFO werkzeug Thread-77 : 127.0.0.1 - - [20/Feb/2022 04:51:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:52:08,844 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89171648): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:52:08,846 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:52:10,964 INFO werkzeug Thread-78 : 127.0.0.1 - - [20/Feb/2022 04:52:10] "GET / HTTP/1.1" 200 -
+2022-02-20 04:52:11,008 INFO werkzeug Thread-79 : 127.0.0.1 - - [20/Feb/2022 04:52:11] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:52:11,013 INFO werkzeug Thread-80 : 127.0.0.1 - - [20/Feb/2022 04:52:11] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:52:11,018 INFO werkzeug Thread-82 : 127.0.0.1 - - [20/Feb/2022 04:52:11] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:52:11,019 INFO werkzeug Thread-81 : 127.0.0.1 - - [20/Feb/2022 04:52:11] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:52:11,062 INFO werkzeug Thread-83 : 127.0.0.1 - - [20/Feb/2022 04:52:11] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:52:11,111 INFO werkzeug Thread-84 : 127.0.0.1 - - [20/Feb/2022 04:52:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:52:17,238 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89171761): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:52:17,239 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:52:18,692 INFO werkzeug Thread-85 : 127.0.0.1 - - [20/Feb/2022 04:52:18] "GET / HTTP/1.1" 200 -
+2022-02-20 04:52:18,725 INFO werkzeug Thread-86 : 127.0.0.1 - - [20/Feb/2022 04:52:18] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:52:18,733 INFO werkzeug Thread-87 : 127.0.0.1 - - [20/Feb/2022 04:52:18] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:52:18,736 INFO werkzeug Thread-88 : 127.0.0.1 - - [20/Feb/2022 04:52:18] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:52:18,737 INFO werkzeug Thread-89 : 127.0.0.1 - - [20/Feb/2022 04:52:18] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:52:18,789 INFO werkzeug Thread-90 : 127.0.0.1 - - [20/Feb/2022 04:52:18] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:52:18,839 INFO werkzeug Thread-91 : 127.0.0.1 - - [20/Feb/2022 04:52:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:52:53,440 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89172141): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:52:53,441 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 04:53:52,730 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89173422): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:53:52,730 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 04:54:03,559 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89173595): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:54:03,561 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 04:54:22,387 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89173978): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:54:22,388 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 04:54:38,938 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89174103): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:54:38,939 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 04:54:53,949 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89174218): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:54:53,952 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 04:55:23,625 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89174400): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:55:23,627 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 04:55:46,718 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89174770): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:55:46,718 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:55:48,795 INFO werkzeug Thread-92 : 127.0.0.1 - - [20/Feb/2022 04:55:48] "GET / HTTP/1.1" 200 -
+2022-02-20 04:56:31,776 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89175424): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:56:31,777 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:56:32,709 INFO werkzeug Thread-93 : 127.0.0.1 - - [20/Feb/2022 04:56:32] "GET / HTTP/1.1" 200 -
+2022-02-20 04:56:33,748 INFO werkzeug Thread-94 : 127.0.0.1 - - [20/Feb/2022 04:56:33] "GET / HTTP/1.1" 200 -
+2022-02-20 04:56:35,155 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=10400, id=89175486): is_file, is_inode_meta_mod
+2022-02-20 04:56:35,159 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:56:35,169 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89175489): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:56:35,169 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:56:36,172 INFO werkzeug Thread-95 : 127.0.0.1 - - [20/Feb/2022 04:56:36] "GET / HTTP/1.1" 200 -
+2022-02-20 04:56:36,206 INFO werkzeug Thread-96 : 127.0.0.1 - - [20/Feb/2022 04:56:36] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:56:36,219 INFO werkzeug Thread-97 : 127.0.0.1 - - [20/Feb/2022 04:56:36] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:56:36,219 INFO werkzeug Thread-99 : 127.0.0.1 - - [20/Feb/2022 04:56:36] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:56:36,220 INFO werkzeug Thread-98 : 127.0.0.1 - - [20/Feb/2022 04:56:36] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:56:36,273 INFO werkzeug Thread-100 : 127.0.0.1 - - [20/Feb/2022 04:56:36] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:56:36,333 INFO werkzeug Thread-101 : 127.0.0.1 - - [20/Feb/2022 04:56:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:56:56,166 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89175890): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:56:56,168 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:56:57,682 INFO werkzeug Thread-102 : 127.0.0.1 - - [20/Feb/2022 04:56:57] "GET / HTTP/1.1" 200 -
+2022-02-20 04:56:57,728 INFO werkzeug Thread-103 : 127.0.0.1 - - [20/Feb/2022 04:56:57] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:56:57,741 INFO werkzeug Thread-104 : 127.0.0.1 - - [20/Feb/2022 04:56:57] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:56:57,743 INFO werkzeug Thread-105 : 127.0.0.1 - - [20/Feb/2022 04:56:57] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:56:57,743 INFO werkzeug Thread-106 : 127.0.0.1 - - [20/Feb/2022 04:56:57] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:56:57,801 INFO werkzeug Thread-107 : 127.0.0.1 - - [20/Feb/2022 04:56:57] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:56:57,863 INFO werkzeug Thread-108 : 127.0.0.1 - - [20/Feb/2022 04:56:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:57:07,033 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89176287): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:57:07,034 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:57:11,487 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89176560): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:57:11,488 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:57:12,760 INFO werkzeug Thread-109 : 127.0.0.1 - - [20/Feb/2022 04:57:12] "GET / HTTP/1.1" 200 -
+2022-02-20 04:57:12,797 INFO werkzeug Thread-110 : 127.0.0.1 - - [20/Feb/2022 04:57:12] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:57:12,805 INFO werkzeug Thread-111 : 127.0.0.1 - - [20/Feb/2022 04:57:12] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:57:12,806 INFO werkzeug Thread-113 : 127.0.0.1 - - [20/Feb/2022 04:57:12] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:57:12,807 INFO werkzeug Thread-112 : 127.0.0.1 - - [20/Feb/2022 04:57:12] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:57:12,847 INFO werkzeug Thread-114 : 127.0.0.1 - - [20/Feb/2022 04:57:12] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:57:12,896 INFO werkzeug Thread-115 : 127.0.0.1 - - [20/Feb/2022 04:57:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:57:31,005 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89176907): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:57:31,006 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:57:32,688 INFO werkzeug Thread-116 : 127.0.0.1 - - [20/Feb/2022 04:57:32] "GET / HTTP/1.1" 200 -
+2022-02-20 04:57:32,720 INFO werkzeug Thread-117 : 127.0.0.1 - - [20/Feb/2022 04:57:32] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:57:32,728 INFO werkzeug Thread-118 : 127.0.0.1 - - [20/Feb/2022 04:57:32] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:57:32,729 INFO werkzeug Thread-119 : 127.0.0.1 - - [20/Feb/2022 04:57:32] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:57:32,730 INFO werkzeug Thread-120 : 127.0.0.1 - - [20/Feb/2022 04:57:32] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:57:32,777 INFO werkzeug Thread-121 : 127.0.0.1 - - [20/Feb/2022 04:57:32] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:57:32,820 INFO werkzeug Thread-122 : 127.0.0.1 - - [20/Feb/2022 04:57:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:57:55,059 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89177352): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:57:55,064 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:58:00,392 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89177456): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:58:00,394 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:58:16,862 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89177576): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:58:16,864 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:58:18,250 INFO werkzeug Thread-123 : 127.0.0.1 - - [20/Feb/2022 04:58:18] "GET / HTTP/1.1" 200 -
+2022-02-20 04:58:18,325 INFO werkzeug Thread-124 : 127.0.0.1 - - [20/Feb/2022 04:58:18] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:58:18,330 INFO werkzeug Thread-126 : 127.0.0.1 - - [20/Feb/2022 04:58:18] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:58:18,333 INFO werkzeug Thread-125 : 127.0.0.1 - - [20/Feb/2022 04:58:18] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:58:18,336 INFO werkzeug Thread-127 : 127.0.0.1 - - [20/Feb/2022 04:58:18] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:58:18,414 INFO werkzeug Thread-128 : 127.0.0.1 - - [20/Feb/2022 04:58:18] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:58:18,492 INFO werkzeug Thread-129 : 127.0.0.1 - - [20/Feb/2022 04:58:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:58:32,845 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89177781): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:58:32,846 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:58:33,767 INFO werkzeug Thread-130 : 127.0.0.1 - - [20/Feb/2022 04:58:33] "GET / HTTP/1.1" 200 -
+2022-02-20 04:58:33,800 INFO werkzeug Thread-131 : 127.0.0.1 - - [20/Feb/2022 04:58:33] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:58:33,810 INFO werkzeug Thread-132 : 127.0.0.1 - - [20/Feb/2022 04:58:33] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:58:33,811 INFO werkzeug Thread-133 : 127.0.0.1 - - [20/Feb/2022 04:58:33] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:58:33,812 INFO werkzeug Thread-134 : 127.0.0.1 - - [20/Feb/2022 04:58:33] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:58:33,856 INFO werkzeug Thread-135 : 127.0.0.1 - - [20/Feb/2022 04:58:33] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:58:33,907 INFO werkzeug Thread-136 : 127.0.0.1 - - [20/Feb/2022 04:58:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:58:37,668 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89177901): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:58:37,669 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:58:38,853 INFO werkzeug Thread-137 : 127.0.0.1 - - [20/Feb/2022 04:58:38] "GET / HTTP/1.1" 200 -
+2022-02-20 04:58:38,885 INFO werkzeug Thread-138 : 127.0.0.1 - - [20/Feb/2022 04:58:38] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 04:58:38,894 INFO werkzeug Thread-141 : 127.0.0.1 - - [20/Feb/2022 04:58:38] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 04:58:38,896 INFO werkzeug Thread-140 : 127.0.0.1 - - [20/Feb/2022 04:58:38] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 04:58:38,897 INFO werkzeug Thread-139 : 127.0.0.1 - - [20/Feb/2022 04:58:38] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 04:58:38,951 INFO werkzeug Thread-142 : 127.0.0.1 - - [20/Feb/2022 04:58:38] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 04:58:39,002 INFO werkzeug Thread-143 : 127.0.0.1 - - [20/Feb/2022 04:58:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 04:58:46,086 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89178072): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:58:46,087 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:59:46,149 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89178537): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:59:46,149 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:59:53,317 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89178597): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:59:53,320 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:59:59,973 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89178883): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:59:59,974 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 04:59:59,984 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css", inode=8603774086, flags=11400, id=89178886): is_file, is_inode_meta_mod, is_modified
+2022-02-20 04:59:59,984 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/static/styles.css', is_directory=False>
+2022-02-20 05:00:03,048 INFO werkzeug Thread-144 : 127.0.0.1 - - [20/Feb/2022 05:00:03] "GET / HTTP/1.1" 200 -
+2022-02-20 05:00:03,101 INFO werkzeug Thread-145 : 127.0.0.1 - - [20/Feb/2022 05:00:03] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 05:00:03,121 INFO werkzeug Thread-147 : 127.0.0.1 - - [20/Feb/2022 05:00:03] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 05:00:03,121 INFO werkzeug Thread-146 : 127.0.0.1 - - [20/Feb/2022 05:00:03] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 05:00:03,122 INFO werkzeug Thread-148 : 127.0.0.1 - - [20/Feb/2022 05:00:03] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 05:00:03,181 INFO werkzeug Thread-149 : 127.0.0.1 - - [20/Feb/2022 05:00:03] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 05:00:03,246 INFO werkzeug Thread-150 : 127.0.0.1 - - [20/Feb/2022 05:00:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 05:02:07,323 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89180698): is_file, is_inode_meta_mod, is_modified
+2022-02-20 05:02:07,326 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 05:02:14,317 INFO werkzeug Thread-151 : 127.0.0.1 - - [20/Feb/2022 05:02:14] "GET / HTTP/1.1" 200 -
+2022-02-20 05:02:50,061 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89181037): is_file, is_inode_meta_mod, is_modified
+2022-02-20 05:02:50,062 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 05:02:51,905 INFO werkzeug Thread-152 : 127.0.0.1 - - [20/Feb/2022 05:02:51] "GET / HTTP/1.1" 200 -
+2022-02-20 05:03:17,903 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89181275): is_file, is_inode_meta_mod, is_modified
+2022-02-20 05:03:17,904 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 05:04:19,073 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89181677): is_file, is_inode_meta_mod, is_modified
+2022-02-20 05:04:19,073 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 05:04:22,405 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89181708): is_file, is_inode_meta_mod, is_modified
+2022-02-20 05:04:22,406 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 05:04:24,742 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89181732): is_file, is_inode_meta_mod, is_modified
+2022-02-20 05:04:24,743 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 05:04:27,374 INFO werkzeug Thread-154 : 127.0.0.1 - - [20/Feb/2022 05:04:27] "GET / HTTP/1.1" 200 -
+2022-02-20 05:04:27,415 INFO werkzeug Thread-155 : 127.0.0.1 - - [20/Feb/2022 05:04:27] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 05:04:27,428 INFO werkzeug Thread-156 : 127.0.0.1 - - [20/Feb/2022 05:04:27] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 05:04:27,433 INFO werkzeug Thread-158 : 127.0.0.1 - - [20/Feb/2022 05:04:27] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 05:04:27,433 INFO werkzeug Thread-157 : 127.0.0.1 - - [20/Feb/2022 05:04:27] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 05:04:27,490 INFO werkzeug Thread-159 : 127.0.0.1 - - [20/Feb/2022 05:04:27] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 05:04:27,535 INFO werkzeug Thread-160 : 127.0.0.1 - - [20/Feb/2022 05:04:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 05:04:29,251 INFO werkzeug Thread-161 : 127.0.0.1 - - [20/Feb/2022 05:04:29] "GET / HTTP/1.1" 200 -
+2022-02-20 05:04:49,554 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89182051): is_file, is_inode_meta_mod, is_modified
+2022-02-20 05:04:49,554 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 05:04:55,722 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89182108): is_file, is_inode_meta_mod, is_modified
+2022-02-20 05:04:55,724 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 05:04:57,188 INFO werkzeug Thread-162 : 127.0.0.1 - - [20/Feb/2022 05:04:57] "GET / HTTP/1.1" 200 -
+2022-02-20 05:05:18,547 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89182297): is_file, is_inode_meta_mod, is_modified
+2022-02-20 05:05:18,547 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 05:05:20,461 INFO werkzeug Thread-163 : 127.0.0.1 - - [20/Feb/2022 05:05:20] "GET / HTTP/1.1" 200 -
+2022-02-20 05:05:21,707 INFO werkzeug Thread-164 : 127.0.0.1 - - [20/Feb/2022 05:05:21] "GET / HTTP/1.1" 200 -
+2022-02-20 05:05:21,745 INFO werkzeug Thread-165 : 127.0.0.1 - - [20/Feb/2022 05:05:21] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 05:05:21,751 INFO werkzeug Thread-166 : 127.0.0.1 - - [20/Feb/2022 05:05:21] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 05:05:21,752 INFO werkzeug Thread-167 : 127.0.0.1 - - [20/Feb/2022 05:05:21] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 05:05:21,753 INFO werkzeug Thread-168 : 127.0.0.1 - - [20/Feb/2022 05:05:21] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 05:05:22,086 INFO werkzeug Thread-169 : 127.0.0.1 - - [20/Feb/2022 05:05:22] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 05:05:22,395 INFO werkzeug Thread-170 : 127.0.0.1 - - [20/Feb/2022 05:05:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 05:06:06,284 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89182956): is_file, is_inode_meta_mod, is_modified
+2022-02-20 05:06:06,285 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 05:06:07,297 INFO werkzeug Thread-171 : 127.0.0.1 - - [20/Feb/2022 05:06:07] "GET / HTTP/1.1" 200 -
+2022-02-20 05:06:26,632 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89183162): is_file, is_inode_meta_mod, is_modified
+2022-02-20 05:06:26,633 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 05:06:44,119 INFO werkzeug Thread-172 : 127.0.0.1 - - [20/Feb/2022 05:06:44] "GET / HTTP/1.1" 200 -
+2022-02-20 05:07:27,071 INFO werkzeug Thread-173 : 127.0.0.1 - - [20/Feb/2022 05:07:27] "GET / HTTP/1.1" 200 -
+2022-02-20 05:07:29,127 INFO werkzeug Thread-174 : 127.0.0.1 - - [20/Feb/2022 05:07:29] "GET / HTTP/1.1" 200 -
+2022-02-20 05:09:31,835 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89185352): is_file, is_inode_meta_mod, is_modified
+2022-02-20 05:09:31,836 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 05:09:33,722 INFO werkzeug Thread-176 : 127.0.0.1 - - [20/Feb/2022 05:09:33] "GET / HTTP/1.1" 200 -
+2022-02-20 05:09:42,036 INFO werkzeug Thread-177 : 127.0.0.1 - - [20/Feb/2022 05:09:42] "GET / HTTP/1.1" 200 -
+2022-02-20 05:09:42,073 INFO werkzeug Thread-178 : 127.0.0.1 - - [20/Feb/2022 05:09:42] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 05:09:42,082 INFO werkzeug Thread-180 : 127.0.0.1 - - [20/Feb/2022 05:09:42] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 05:09:42,083 INFO werkzeug Thread-179 : 127.0.0.1 - - [20/Feb/2022 05:09:42] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 05:09:42,084 INFO werkzeug Thread-181 : 127.0.0.1 - - [20/Feb/2022 05:09:42] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 05:09:42,142 INFO werkzeug Thread-182 : 127.0.0.1 - - [20/Feb/2022 05:09:42] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 05:09:42,188 INFO werkzeug Thread-183 : 127.0.0.1 - - [20/Feb/2022 05:09:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 05:09:45,738 INFO werkzeug Thread-184 : 127.0.0.1 - - [20/Feb/2022 05:09:45] "GET / HTTP/1.1" 200 -
+2022-02-20 05:09:49,253 INFO werkzeug Thread-185 : 127.0.0.1 - - [20/Feb/2022 05:09:49] "GET / HTTP/1.1" 200 -
+2022-02-20 05:09:54,253 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html", inode=8603774092, flags=11400, id=89185669): is_file, is_inode_meta_mod, is_modified
+2022-02-20 05:09:54,253 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/templates/index.html', is_directory=False>
+2022-02-20 05:09:55,474 INFO werkzeug Thread-186 : 127.0.0.1 - - [20/Feb/2022 05:09:55] "GET / HTTP/1.1" 200 -
+2022-02-20 05:11:19,825 INFO werkzeug Thread-188 : 127.0.0.1 - - [20/Feb/2022 05:11:19] "GET / HTTP/1.1" 200 -
+2022-02-20 05:11:20,900 INFO werkzeug Thread-189 : 127.0.0.1 - - [20/Feb/2022 05:11:20] "GET / HTTP/1.1" 200 -
+2022-02-20 05:11:20,944 INFO werkzeug Thread-190 : 127.0.0.1 - - [20/Feb/2022 05:11:20] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 05:11:20,949 INFO werkzeug Thread-192 : 127.0.0.1 - - [20/Feb/2022 05:11:20] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 05:11:20,952 INFO werkzeug Thread-191 : 127.0.0.1 - - [20/Feb/2022 05:11:20] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 05:11:20,952 INFO werkzeug Thread-193 : 127.0.0.1 - - [20/Feb/2022 05:11:20] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 05:11:21,004 INFO werkzeug Thread-194 : 127.0.0.1 - - [20/Feb/2022 05:11:21] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 05:11:21,062 INFO werkzeug Thread-195 : 127.0.0.1 - - [20/Feb/2022 05:11:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 05:11:34,098 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-02-20 05:11:34,115 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-02-20 05:11:34,347 WARNING werkzeug MainThread :  * Debugger is active!
+2022-02-20 05:11:34,357 INFO werkzeug MainThread :  * Debugger PIN: 997-136-322
+2022-02-20 05:12:41,222 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-02-20 05:12:41,238 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-02-20 05:12:41,460 WARNING werkzeug MainThread :  * Debugger is active!
+2022-02-20 05:12:41,468 INFO werkzeug MainThread :  * Debugger PIN: 997-136-322
+2022-02-20 05:13:31,050 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/main.py", inode=8603774094, flags=11400, id=89188371): is_file, is_inode_meta_mod, is_modified
+2022-02-20 05:13:31,051 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/main.py', is_directory=False>
+2022-02-20 05:13:31,053 INFO werkzeug Thread-1 :  * Detected change in '/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/main.py', reloading
+2022-02-20 05:13:32,147 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-02-20 05:13:32,691 WARNING werkzeug MainThread :  * Debugger is active!
+2022-02-20 05:13:32,699 INFO werkzeug MainThread :  * Debugger PIN: 997-136-322
+2022-02-20 05:13:40,886 INFO werkzeug MainThread :  * Running on http://localhost:5000/ (Press CTRL+C to quit)
+2022-02-20 05:13:40,894 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-02-20 05:13:41,127 WARNING werkzeug MainThread :  * Debugger is active!
+2022-02-20 05:13:41,133 INFO werkzeug MainThread :  * Debugger PIN: 997-136-322
+2022-02-20 05:13:55,203 INFO werkzeug Thread-6 : 127.0.0.1 - - [20/Feb/2022 05:13:55] "GET / HTTP/1.1" 200 -
+2022-02-20 05:13:55,506 INFO werkzeug Thread-10 : 127.0.0.1 - - [20/Feb/2022 05:13:55] "GET /static/app.js HTTP/1.1" 200 -
+2022-02-20 05:13:55,507 INFO werkzeug Thread-8 : 127.0.0.1 - - [20/Feb/2022 05:13:55] "GET /static/shop-list.css HTTP/1.1" 200 -
+2022-02-20 05:13:55,508 INFO werkzeug Thread-9 : 127.0.0.1 - - [20/Feb/2022 05:13:55] "GET /static/shop-list.js HTTP/1.1" 200 -
+2022-02-20 05:13:55,508 INFO werkzeug Thread-7 : 127.0.0.1 - - [20/Feb/2022 05:13:55] "GET /static/styles.css HTTP/1.1" 200 -
+2022-02-20 05:13:55,826 INFO werkzeug Thread-11 : 127.0.0.1 - - [20/Feb/2022 05:13:55] "GET /static/contact-bg.png HTTP/1.1" 200 -
+2022-02-20 05:13:56,324 INFO werkzeug Thread-12 : 127.0.0.1 - - [20/Feb/2022 05:13:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-02-20 05:14:21,667 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/main.py", inode=8603774094, flags=11400, id=89189193): is_file, is_inode_meta_mod, is_modified
+2022-02-20 05:14:21,669 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/main.py', is_directory=False>
+2022-02-20 05:14:21,671 INFO werkzeug Thread-1 :  * Detected change in '/Users/anoodaalkatheeri/Desktop/AthenaHacks/Flask-demo/main.py', reloading
+2022-02-20 05:14:22,718 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)

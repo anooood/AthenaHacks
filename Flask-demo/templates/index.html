@@ -12,7 +12,6 @@
       crossorigin="anonymous"
     />
     <link href="{{ url_for('static', filename='shop-list.css') }}" rel="stylesheet">
-    <script src="{{ url_for('static', filename='shop-list.js') }}"></script>
   </head>
   <body>
     <!-- Navbar Section -->
@@ -28,12 +27,10 @@
             <a href="#home" class="navbar__links" id="home-page">Home</a>
           </li>
           <li class="navbar__item">
-            <a href="#services" class="navbar__links" id="about-page">How It Works?</a>
+            <a href="#about" class="navbar__links" id="about-page">How It Works?</a>
           </li>
           <li class="navbar__item">
-            <a href="#services" class="navbar__links" id="services-page"
-              >Services</a
-            >
+            <a href="#services" class="navbar__links" id="services-page">Get Started</a>
           </li>
         </ul>
       </div>
@@ -43,35 +40,32 @@
     <div class="hero" id="home">
       <div class="hero__container">
         <h1 class="hero__heading">Save money on grocery items with us!<span></span></h1>
-        <!-- <p class="hero__description">Unlimited Possibilities</p> -->
-        <button class="main__btn"><a href="#">Get Started</a></button>
+        <button class="button"><a href="#services" id="services-page">Get Started</a></button>
       </div>
     </div>
 
         <!-- Services Section -->
-        <div class="services" id="services">
+        <div class="services" id="about">
           <h1>How It Works?</h1>
           <div class="services__wrapper">
             <div class="services__card">
-              <h2>Custom Colorways</h2>
-              <p>AI Powered technology</p>
-              <div class="services__btn"><button>Get Started</button></div>
+              <h2>Step 1</h2>
+              <p>Enter your list of shopping items</p>
             </div>
             <div class="services__card">
-              <h2>Are you Ready?</h2>
-              <p>Take the lepa</p>
-              <div class="services__btn"><button>Get Started</button></div>
+              <h2>Step 2</h2>
+              <p>Our algorithm will estimate the total cost of your groceries</p>
             </div>
             <div class="services__card">
-              <h2>Full Gradients</h2>
-              <p>100 Combinations</p>
-              <div class="services__btn"><button>Get Started</button></div>
+              <h2>Step 3</h2>
+              <p>We will give you the store with the best, most affordable deal!</p>
             </div>
             </div>
           </div>
         </div>
-
-    <h1 id="shoplist">SHOPPING LIST</h1>
+    
+    <div class="shopping" id="services">
+    <h1 id="shoplist">Enter Your Shopping List</h1>
     <div id="shop-wrap">
       <!-- (A) ADD NEW ITEM -->
       <form id="shop-form">
@@ -106,15 +100,22 @@
       <!-- (B) SHOPPING LIST -->
       <div id="shop-list"></div>
     </div>
+    <div>
+      <form action="post">
+      <button class="Submit" id="submit"><a href="/results" id="submit">Submit</a></button>
+    </form>    
+    </div>
+    </div>
+
 
     <!-- Footer Section -->
     <div class="footer__container">
       <section class="social__media">
         <div class="social__media--wrap">
           <div class="footer__logo">
-            <a href="/" id="footer__logo">COLOR</a>
+            <a href="/" id="footer__logo">GrocerLess</a>
           </div>
-          <p class="website__rights">© COLOR 2020. All rights reserved</p>
+          <p class="website__rights">© GrocerLess 2020. All rights reserved</p>
           <div class="social__icons">
             <a href="/" class="social__icon--link" target="_blank"
               ><i class="fab fa-facebook"></i
@@ -136,7 +137,9 @@
       </section>
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="{{ url_for('static', filename='app.js') }}"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='shop-list.js') }}"></script>
+
   </body>
 </html>
