@@ -9,3 +9,5 @@ We initially created a dummy database (as Excel CSV files) to use in our applica
 
 Challenges we ran into
 We had a hard time finding a database suitable for the working of our web app. Furthermore, we could not find grocery API datasets that have real-time data. We also struggled in integrating the frontend with the backend using Flask. In addition to all of that, we are new to web design.
+
+In order to run the web application, Flask must be installed in the computer and the "main.py" Python file is to be called through Terminal. Then go to the local host address to access the web application. 
