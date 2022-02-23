@@ -1,4 +1,4 @@
-Inspiration /n
+Inspiration \n
 As international students, we usually find it hard to minimize our grocery costs since we don’t know which stores offer good quality products at minimum prices. This web application can be beneficial to students and anyone who just moved-in to a new city.
 
 What it does
